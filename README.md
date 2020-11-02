@@ -9,3 +9,7 @@ Continuar na aula: 05
 * `./<nomeArquivo>` - **Executar** o Programa.
 * **`dotnet new console`** - Cria toda **Estrutura** (program.cs.....)
 * `static int num` - Variaveis **globais**(static)
+* Tipos de formataçoes:
+   * `{0, 10}` - indice 0 com 10 de espaçamento.
+   * `{0, 10:c}` - indice 0 com 10 de espaçamento, **monetario** (R$)
+   * `{0, 10:p}` - indice 0 com 10 de espaçamento, **porcentagem** (%)
