@@ -23,3 +23,14 @@ Continuar na aula: 16
 * BitWise
    * `num = num << 1` - Deslocamento para a esquerda -> **Dobra**
    * `num = num >> 1` - Deslocamento para a direita  -> **Divide**(metade). 
+* Label
+   * `inicio:` -> `goto inicio;`
+* Array Unidimencional (vetor)
+   * `int[] num = new int[5]` - array de 5 elementos, sem declarar
+      * `n[0] = 1;` ...
+   * `int[] num = new int[3] {1, 2, 3}` - array de 3 elementos ja declarados
+   * `int[] num = {1, 2, 3, 4, 5}` - array de 5 elementos, sem declarar o tamanho.
+* Array Bidimencional (matriz)
+   * `int[,] matriz = new int [3,5]` - Matriz de 3 linhas e 5 colunas
+      * `matriz[0,0] = 1` ...
+   * `int[,] matriz = new int [2,2] { {1, 2},{3, 4} }` - já declarados
