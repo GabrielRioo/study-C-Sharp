@@ -13,6 +13,14 @@ Continuar na aula: 16
 * `enum DiasSemana = {segunda, ...}` 
    * `DiasSemana ds = DiasSemana.Domingo`
    * `DiasSemana ds = (DiasSemana)3` - Convertido (indice)
+* `Console.WriteLine();`
+* `Console.ReadLine();`
+* Estruturas:
+   * `if()` / `else if()` / `else`
+   * `for(int i = 1; i <= 10; i++) {}`
+   * `int i; while() { i++ }`
+   * `do { } while();` - Garante que pelo menos uma vez o comando será executado.
+   * `foreach(int item in num) {}` - O tipo tem que ser o mesmo do array.
 * Tipos de formataçoes:
    * `{0, 10}` - indice 0 com 10 de espaçamento.
    * `{0, 10:c}` - indice 0 com 10 de espaçamento, **monetario** (R$)
